@@ -1,0 +1,29 @@
+{
+  "process_names": [
+    "supervisord",
+    "xbot_control_node",
+    "xbot_state_manager",
+    "motion_manager_node",
+    "monitor_manager_node",
+    "aggregator_node",
+    "battery_node",
+    "joy_node",
+    "joy_combo_node",
+    "task_server_node",
+    "mobile_manipulator_mpc_node",
+    "mobile_manipulator_dummy_mrt_node",
+    "MPCPolicyConversation",
+    "EECommandConversation",
+    "mobile_manipulator_target",
+    "EEHeadArmPosePublish",
+    "rbevent",
+    "dynamic_launch_manager_node",
+    "simple_trajectory_server",
+    "grpc_server_manager",
+    "robot_state_publisher",
+    "static_transform_publisher"
+  ],
+  "publish_topic": "/process_usage",
+  "publish_interval_sec": 2.0
+}
+
