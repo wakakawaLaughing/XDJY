@@ -1,0 +1,14 @@
+{
+  "bag_path": "/root/bujiadi/1028_shake", 
+  "hz": 50.0,
+  "loop": false,
+  "max_queue_per_topic": 2000,
+  "transport": "zmq",
+  "zmq_address": "tcp://*:5555",
+  "topics": {
+    "/vr_left_gamepad": { "hz": 90.0 },
+    "/vr_right_gamepad": { "hz": 90.0 },
+    "/vr_viewer": { "hz": 90.0 }
+  }
+}
+
